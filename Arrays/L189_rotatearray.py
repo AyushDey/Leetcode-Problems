@@ -8,8 +8,7 @@
 def rotate(nums,k):
     k = k % len(nums)
     nums[:] = nums[-k:] + nums[:-k]
-    #print(nums)
-
+    
 nums = list(map(int, input().strip().split()))
 k = int(input())
 #print(nums)

@@ -1,5 +1,5 @@
-# Input: anagram
-# Output: Nagaram
+# Input: s = 'anagram', t = 'nagaram'
+# Output: True
 # Time Complexity = O(n), Space Complexity = O(n)
 def isAnagram(s,t):
     if len(s) != len(t):
