@@ -4,6 +4,16 @@
 # array [0,1,0,2,1,0,1,3,2,1,2,1]. In this case, 6 units of rain water (blue section) 
 # are being trapped.
 
+# Algo
+# Step 1 : Set left and right pointer
+# Step 2 : Set leftmax and rightmax
+# Step 3 : Create a while loop l < r, where:
+# Step 3a: if lmax < rmax, increase l, set lmax to max(lmax, height[l]), 
+# add res += lmax - height[l]
+# Step 3b: else, decrease r, set rmax to max(rmax, height[r]), 
+# add res += rmax - height[r]
+# Step 4: return res 
+
 def trap(height):
     if not height: return 0
 
