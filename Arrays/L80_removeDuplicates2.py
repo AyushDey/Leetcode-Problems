@@ -14,3 +14,4 @@ def removeDuplicates2(nums):
 
 nums = [1,1,1,2,2,3]
 print(removeDuplicates2(nums))
+print(removeDup(nums))
