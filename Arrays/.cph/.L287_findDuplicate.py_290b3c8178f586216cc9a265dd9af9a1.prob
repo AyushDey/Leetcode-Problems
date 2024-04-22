@@ -1,0 +1,1 @@
+{"name":"Local: L287_findDuplicate","url":"c:\\Leetcode-Problems\\Arrays\\L287_findDuplicate.py","tests":[{"id":1713766689986,"input":"1 3 4 2 2","output":"2"},{"id":1713771365049,"input":"3 1 3 4 2","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Leetcode-Problems\\Arrays\\L287_findDuplicate.py","group":"local","local":true}
