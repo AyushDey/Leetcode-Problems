@@ -4,25 +4,18 @@
 
 def minRemove(s):
     stack = []
-    count = 0
-    for i in s:
-        if i == '(':
+    s = list(s)
+    for i in range(len(s)):
+        if s[i] == '(':
             stack.append(i)
-            count += 1
-        elif i == ')' and count > 0:
-            stack.append(i)
-            count -= 1
-        elif i != ')':
-            stack.append(i)
-    
-    revst = []
-    for i in stack[::-1]:
-        if i == '(' and count > 0:
-            count -= 1
-        else:
-            revst.append(i)
-    
-    return ''.join(revst[::-1])
+        if s[i] == ')':
+            if stack:
+                stack.pop()
+            else:
+                s[i] = ''
+    for i in stack:
+        s[i] = ''
+    return ''.join(s)
 
 
 s = "lee(t(c)o)de)"

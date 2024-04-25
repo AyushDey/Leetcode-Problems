@@ -1,0 +1,1 @@
+{"name":"Local: L392_isSubsequence","url":"c:\\Leetcode-Problems\\Strings\\L392_isSubsequence.py","tests":[{"id":1713973601513,"input":"abc ahbgdc","output":"True"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Leetcode-Problems\\Strings\\L392_isSubsequence.py","group":"local","local":true}

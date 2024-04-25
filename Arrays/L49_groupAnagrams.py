@@ -10,7 +10,6 @@
 #  "abt": ["bat"]
 # }
 
-#Time Complexity = O(m*n), Space Complexity = O(n*m)
 from collections import defaultdict
 def groupAnagram(strs):
     res = defaultdict(list)
@@ -19,6 +18,7 @@ def groupAnagram(strs):
         res[key].append(s)
     return list(res.values())
 
+#Time Complexity = O(m*n), Space Complexity = O(n*m)
 def groupAnagram2(strs):
     res = defaultdict(list)
     for s in strs:

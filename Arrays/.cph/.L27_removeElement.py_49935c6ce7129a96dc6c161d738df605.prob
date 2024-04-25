@@ -1,0 +1,1 @@
+{"name":"Local: L27_removeElement","url":"c:\\Leetcode-Problems\\Arrays\\L27_removeElement.py","tests":[{"id":1713773382438,"input":"0 1 2 2 3 0 4 2","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Leetcode-Problems\\Arrays\\L27_removeElement.py","group":"local","local":true}

@@ -2,9 +2,8 @@
 # Output: 6
 # Explanation: The subarray [4,-1,2,1] has the largest sum 6.
 
-import sys
 def maxSubArray(nums):
-    maxi = -sys.maxsize - 1
+    maxi = -float('inf')
     currentsum = 0
     for i in range(len(nums)):
         currentsum+= nums[i]

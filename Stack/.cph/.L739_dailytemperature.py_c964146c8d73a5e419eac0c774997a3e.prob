@@ -1,0 +1,1 @@
+{"name":"Local: L739_dailytemperature","url":"c:\\Leetcode-Problems\\Stack\\L739_dailytemperature.py","tests":[{"id":1714038690114,"input":"73 74 75 71 69 72 76 73","output":"[1, 1, 4, 2, 1, 1, 0, 0]"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Leetcode-Problems\\Stack\\L739_dailytemperature.py","group":"local","local":true}

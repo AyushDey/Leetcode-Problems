@@ -1,0 +1,1 @@
+{"name":"Local: L13_romanToInt","url":"c:\\Leetcode-Problems\\Strings\\L13_romanToInt.py","tests":[{"id":1713971464957,"input":"MCMXCIV","output":"1994"},{"id":1713971503645,"input":"LVIII","output":"58"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Leetcode-Problems\\Strings\\L13_romanToInt.py","group":"local","local":true}

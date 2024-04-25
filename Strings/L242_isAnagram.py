@@ -10,10 +10,7 @@ def isAnagram(s,t):
     for i in t:
         if i in count:
             count[i] -= 1
-    for i in count:
-        if count[i] != 0:
-            return False
-    return True
+    return all(count[i] == 0 for i in count)
 # Time Complexity = O(n), Space Complexity = O(n^2)
 def isAnagramMem(s,t):
     if len(s) != len(t):
@@ -31,7 +28,7 @@ def isAnagramwithoutMemory(s, t):
     return sorted(s) == sorted(t)
 
 s = 'anagram'
-t = 'tagaram'
+t = 'nagaram'
 print(isAnagram(s,t))
 #print(isAnagramMem(s,t))
 
