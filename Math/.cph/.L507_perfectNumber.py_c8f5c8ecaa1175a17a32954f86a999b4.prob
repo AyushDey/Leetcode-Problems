@@ -1,0 +1,1 @@
+{"name":"Local: L507_perfectNumber","url":"c:\\Leetcode-Problems\\Math\\L507_perfectNumber.py","tests":[{"id":1716364177948,"input":"21","output":"False"},{"id":1716364205908,"input":"28","output":"True"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Leetcode-Problems\\Math\\L507_perfectNumber.py","group":"local","local":true}

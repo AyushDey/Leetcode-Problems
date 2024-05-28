@@ -1,0 +1,1 @@
+{"name":"Local: L1838_maxFrequencyK","url":"c:\\Leetcode-Problems\\Sliding Window\\L1838_maxFrequencyK.py","tests":[{"id":1716286152112,"input":"3 9 6\n2","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Leetcode-Problems\\Sliding Window\\L1838_maxFrequencyK.py","group":"local","local":true}
